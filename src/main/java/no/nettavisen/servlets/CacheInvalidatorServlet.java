@@ -73,7 +73,7 @@ public class CacheInvalidatorServlet extends HttpServlet {
             }
 
         } catch (Exception ex) {
-            ex.printStackTrace();
+            logger.error("Exception occured for nginx_url = " + param_nginx_url + " varnish_url = " + param_varnish_url, ex);
         }
 
     }
