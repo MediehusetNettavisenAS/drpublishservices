@@ -2,7 +2,6 @@
 .idea
 # Package Files #
 *.jar
-*.war
 *.ear
 *.iml
 /target
